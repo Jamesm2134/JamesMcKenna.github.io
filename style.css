@@ -1,1 +1,48 @@
+/*===============*/
+
+.body {
+    background-color: white;
+    margin: 0;
+    padding:0;
+    
+}
+
+.center-header {
+    text-align: center;
+}
+
+.divider{
+    border-top: 2px white;
+    height:10px;
+}
+
+
+.header {
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;  
+}
+
+nav a:hover,
+nav a:active {
+    font-weight: bold;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: inline;
+    text-decoration: none;
+    padding: 10px 60px;
+    color: black;
+    border-radius: 5px;
+}
+
+
 
